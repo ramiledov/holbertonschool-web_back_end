@@ -1,0 +1,6 @@
+#!/usr/bin/env mongo
+// Inserts a document into the school collection
+
+db.school.insertOne({
+    name: "Holberton school"
+});
